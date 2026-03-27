@@ -1,4 +1,4 @@
-﻿<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+<p><a href="../README.md"><button>Voltar para o README</button></a></p>
 
 # Tutorial - Passo 12: Inicializar frontend com Vite + React + TS
 
@@ -118,7 +118,7 @@ Voce construiu uma base frontend robusta e sem armadilhas de configuracao para c
 - Nao ajustar `type: module` quando necessario.
 - Configurar Tailwind parcialmente.
 
-## 9. Checkpoint de aprendizado
+## 9. Checkpoints de aprendizado
 - Projeto React TS sobe sem erro.
 - Estilos base do Tailwind estao ativos.
 - Dependencias principais foram instaladas.

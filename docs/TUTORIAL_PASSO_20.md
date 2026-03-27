@@ -1,4 +1,4 @@
-﻿<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+<p><a href="../README.md"><button>Voltar para o README</button></a></p>
 
 # Tutorial - Passo 20: Checklist final de conclusao
 
@@ -7,7 +7,7 @@ Confirmar que voce chegou no mesmo resultado final esperado, incluindo funcional
 
 ## 2. O que sera aprendido
 - Como validar entrega final de projeto real.
-- Como checar regras de negocio com cenarios objetivos.
+- Como checar regras de negocio com cenarios objetivos e criterios claros de aprovacao.
 - Como identificar se algo essencial ainda esta faltando.
 
 ## 2.1 Termos deste capitulo (explicacao rapida)
@@ -83,7 +83,7 @@ Parabens: voce terminou o projeto com criterio de entrega profissional.
 - Nao validar regras de seguranca.
 - Nao testar build final antes de concluir.
 
-## 9. Checkpoint de aprendizado
+## 9. Checkpoints de aprendizado
 - Todos os itens tecnicos, funcionais e de seguranca estao validados.
 - Voce consegue demonstrar o fluxo completo sem erro.
 - Projeto esta pronto para ser apresentado ou publicado.

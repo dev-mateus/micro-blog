@@ -1,4 +1,4 @@
-﻿<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+<p><a href="../README.md"><button>Voltar para o README</button></a></p>
 
 # Tutorial - Passo 15: Construir paginas principais
 
@@ -6,7 +6,7 @@
 Implementar as paginas do app: Home, Login, Register, Profile, CreatePost e EditPost.
 
 ## 2. O que sera aprendido
-- Como montar fluxo completo de UX.
+- Como montar um fluxo completo de uso da aplicacao, com estados de carregamento, erro e sucesso.
 - Como consumir services dentro das paginas.
 - Como tratar loading, erro e sucesso.
 
@@ -16,7 +16,7 @@ Implementar as paginas do app: Home, Login, Register, Profile, CreatePost e Edit
 
 
 ## 3. Por que este passo existe (antes do como)
-Sem paginas, nao existe produto para o usuario final. E nelas que regras viram experiencia real.
+Sem paginas, nao existe produto para o usuario final. E nas paginas que as regras de negocio viram experiencia real de uso.
 
 ## 4. Codigo necessario
 Pasta de paginas:
@@ -69,10 +69,10 @@ Voce construiu a experiencia principal do microblog de ponta a ponta no frontend
 - Navegacao quebrada entre telas principais.
 - Misturar responsabilidade de varias paginas no mesmo arquivo.
 
-## 9. Checkpoint de aprendizado
+## 9. Checkpoints de aprendizado
 - Usuario consegue cadastrar, logar e navegar no app.
-- Feed e perfil carregam dados da API.
-- Criacao e edicao de post funcionam na interface.
+- Feed e perfil carregam dados reais da API sem quebrar a navegacao.
+- Criacao e edicao de post funcionam na interface com feedback visual de sucesso ou erro.
 
 ## 10. Resumo do capitulo
 Voce transformou regras tecnicas em experiencia real de uso.

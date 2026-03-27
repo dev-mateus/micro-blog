@@ -1,4 +1,4 @@
-﻿<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+<p><a href="../README.md"><button>Voltar para o README</button></a></p>
 
 # Tutorial - Passo 18: Resolver erros comuns de projeto real
 
@@ -81,7 +81,7 @@ Voce construiu resiliencia tecnica: projeto compila limpo e roda sem erros comun
 - Ignorar warning importante de tooling.
 - Tentar migrar banco com backend travando arquivo do Prisma.
 
-## 9. Checkpoint de aprendizado
+## 9. Checkpoints de aprendizado
 - Projeto compila limpo apos ajustes.
 - Rotas tipadas corretamente no Fastify.
 - Ambiente frontend/backend roda sem avisos criticos.

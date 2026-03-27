@@ -1,4 +1,4 @@
-﻿<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+<p><a href="../README.md"><button>Voltar para o README</button></a></p>
 
 # Tutorial - Passo 9: Implementar modulo de perfis publicos
 
@@ -8,7 +8,7 @@ Permitir visualizar perfil publico por `username` e listar os posts desse perfil
 ## 2. O que sera aprendido
 - Como criar rotas publicas por parametro de URL.
 - Como buscar dados com Prisma por username.
-- Como paginar resultados basicos.
+- Como paginar resultados de forma previsivel, para evitar respostas muito grandes e manter a navegacao rapida.
 
 ## 2.1 Termos deste capitulo (explicacao rapida)
 - Username: nome unico publico do perfil.
@@ -61,7 +61,7 @@ Voce construiu a camada publica de perfis, essencial para navegacao aberta do mi
 - Esquecer `orderBy` e deixar feed confuso.
 - Nao limitar quantidade de itens por pagina.
 
-## 9. Checkpoint de aprendizado
+## 9. Checkpoints de aprendizado
 - Perfil por username responde corretamente.
 - Lista de posts do perfil funciona com pagina.
 - Requisicao para username invalido retorna erro esperado.

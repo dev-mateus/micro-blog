@@ -1,4 +1,4 @@
-﻿<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+<p><a href="../README.md"><button>Voltar para o README</button></a></p>
 
 # Tutorial - Passo 7: Implementar autenticacao
 
@@ -236,7 +236,7 @@ Voce construiu autenticacao completa e segura: cadastro, login e token JWT pront
 - Retornar erros genericos sem contexto para o frontend.
 - Esquecer de tipar `request.user` para o Fastify.
 
-## 9. Checkpoint de aprendizado
+## 9. Checkpoints de aprendizado
 - Registro cria usuario e perfil.
 - Login retorna token JWT valido.
 - Erros de validacao respondem com status apropriado.

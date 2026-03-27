@@ -1,4 +1,4 @@
-﻿<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+<p><a href="../README.md"><button>Voltar para o README</button></a></p>
 
 # Tutorial - Passo 16: Criar componentes reutilizaveis
 
@@ -62,7 +62,7 @@ Voce construiu uma UI mais organizada, reutilizavel e facil de manter.
 - Componente com props confusas.
 - Nao usar condicoes de exibicao para acoes de dono.
 
-## 9. Checkpoint de aprendizado
+## 9. Checkpoints de aprendizado
 - Header e reutilizado em paginas relevantes.
 - PostCard exibe dados de forma consistente.
 - Acoes de editar/excluir aparecem so para o dono.

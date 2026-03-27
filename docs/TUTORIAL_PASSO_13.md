@@ -1,4 +1,4 @@
-﻿<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+<p><a href="../README.md"><button>Voltar para o README</button></a></p>
 
 # Tutorial - Passo 13: Criar base de navegacao e estado global
 
@@ -173,7 +173,7 @@ Voce construiu a espinha dorsal de navegacao e autenticacao do frontend, igual a
 - Esquecer persistencia no localStorage.
 - Deixar rota protegida acessivel sem sessao.
 
-## 9. Checkpoint de aprendizado
+## 9. Checkpoints de aprendizado
 - Sessao persiste apos recarregar pagina.
 - Rotas protegidas redirecionam quando nao autenticado.
 - Rotas de visitante bloqueiam usuario ja logado.

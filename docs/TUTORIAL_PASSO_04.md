@@ -1,4 +1,4 @@
-﻿<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+<p><a href="../README.md"><button>Voltar para o README</button></a></p>
 
 # Tutorial - Passo 4: Configurar Prisma e banco de dados
 
@@ -188,7 +188,7 @@ Em resumo: agora o projeto saiu de estrutura de codigo para estrutura real de da
 - Relacionamentos inconsistentes entre User, Profile e Post.
 - Usar DATABASE_URL incorreta.
 
-## 10. Checkpoint de aprendizado
+## 10. Checkpoints de aprendizado
 - Migracao foi aplicada com sucesso.
 - Prisma Client foi gerado.
 - Tabelas e relacoes principais existem no banco.

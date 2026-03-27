@@ -1,4 +1,4 @@
-﻿<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+<p><a href="../README.md"><button>Voltar para o README</button></a></p>
 
 # Tutorial - Passo 10: Implementar modulo de posts
 
@@ -208,7 +208,7 @@ Voce construiu o modulo central da aplicacao, com feed publico e CRUD seguro de 
 - Nao diferenciar 403 e 404.
 - Atualizar/excluir sem verificar dono.
 
-## 9. Checkpoint de aprendizado
+## 9. Checkpoints de aprendizado
 - Criar, editar e excluir post funciona para o dono.
 - Visitante consegue ler feed e post publico.
 - API retorna 403/404 nos cenarios corretos.

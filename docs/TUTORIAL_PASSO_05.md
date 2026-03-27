@@ -1,4 +1,4 @@
-﻿<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+<p><a href="../README.md"><button>Voltar para o README</button></a></p>
 
 # Tutorial - Passo 5: Subir servidor base do backend
 
@@ -115,7 +115,7 @@ Voce construiu o "nucleo" do backend: um servidor que sobe, responde e conecta t
 - Esquecer de registrar uma rota/modulo no server.
 - Configurar CORS com origem incorreta.
 
-## 9. Checkpoint de aprendizado
+## 9. Checkpoints de aprendizado
 - `GET /health` responde `status: ok`.
 - Servidor sobe sem falha de ambiente.
 - Rotas principais estao registradas no arquivo central.

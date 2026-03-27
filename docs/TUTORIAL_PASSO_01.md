@@ -1,4 +1,4 @@
-﻿<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+<p><a href="../README.md"><button>Voltar para o README</button></a></p>
 
 # Tutorial - Passo 1: Entender o produto antes de codar
 
@@ -112,7 +112,7 @@ Sem este passo, o projeto nasce confuso. Com este passo, ele nasce com direcao.
 - Escrever regras vagas, sem criterio de validacao.
 - Mudar regra no meio do caminho sem atualizar o documento.
 
-## 10. Checkpoint de aprendizado
+## 10. Checkpoints de aprendizado
 - Voce consegue explicar o projeto em 1 minuto.
 - Voce sabe o que entra e o que fica fora do escopo.
 - Voce tem regras de negocio registradas.

@@ -1,4 +1,4 @@
-﻿<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+<p><a href="../README.md"><button>Voltar para o README</button></a></p>
 
 # Tutorial - Passo 6: Criar estrutura modular por dominio
 
@@ -76,7 +76,7 @@ Voce construiu a arquitetura base do backend para escalar sem virar codigo monol
 - Duplicar acesso ao banco em varios arquivos sem padrao.
 - Misturar responsabilidades de modulos diferentes.
 
-## 9. Checkpoint de aprendizado
+## 9. Checkpoints de aprendizado
 - Estrutura `routes/controller/service` existe em cada modulo.
 - Voce sabe onde adicionar nova regra de negocio.
 - Existe um ponto unico de acesso ao Prisma.

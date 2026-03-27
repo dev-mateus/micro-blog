@@ -1,4 +1,4 @@
-﻿<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+<p><a href="../README.md"><button>Voltar para o README</button></a></p>
 
 # Tutorial - Passo 11: Validar backend completo
 
@@ -67,7 +67,7 @@ Voce construiu confianca no backend: ele nao so funciona, como protege as regras
 - Pular build antes da integracao com frontend.
 - Nao validar respostas de erro (401, 403, 404).
 
-## 9. Checkpoint de aprendizado
+## 9. Checkpoints de aprendizado
 - Build backend concluido sem erro.
 - Endpoints publicos e protegidos testados.
 - Cenarios de seguranca validados com resultado esperado.

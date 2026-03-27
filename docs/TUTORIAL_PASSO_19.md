@@ -1,4 +1,4 @@
-﻿<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+<p><a href="../README.md"><button>Voltar para o README</button></a></p>
 
 # Tutorial - Passo 19: Preparar para deploy (sem publicar)
 
@@ -6,7 +6,7 @@
 Deixar backend e frontend prontos para deploy em qualquer provedor (Render para API e Vercel para frontend).
 
 ## 2. O que sera aprendido
-- Como validar build de producao localmente.
+- Como validar o build de producao localmente antes de preparar deploy.
 - Quais variaveis cada aplicacao precisa.
 - Quais comandos cada plataforma deve executar.
 
@@ -97,7 +97,7 @@ Voce construiu um projeto realmente pronto para subir em nuvem, com configuracao
 - Esquecer variavel obrigatoria em producao.
 - Publicar sem validar build local antes.
 
-## 9. Checkpoint de aprendizado
+## 9. Checkpoints de aprendizado
 - Backend builda e inicia com script de producao.
 - Frontend gera `dist` sem erro.
 - Configuracoes de Render/Vercel estao mapeadas.

@@ -1,4 +1,4 @@
-﻿<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+<p><a href="../README.md"><button>Voltar para o README</button></a></p>
 
 # Tutorial - Passo 3: Inicializar o backend com TypeScript
 
@@ -201,7 +201,7 @@ Em resumo: agora voce tem um backend vivo e preparado para crescer com qualidade
 - Esquecer dependencias de desenvolvimento do TypeScript.
 - Alterar scripts sem testar `npm run dev` e `npm run build`.
 
-## 10. Checkpoint de aprendizado
+## 10. Checkpoints de aprendizado
 - Backend inicia com `npm run dev`.
 - Build TypeScript executa sem erro.
 - Voce entende onde fica o arquivo de entrada do servidor.

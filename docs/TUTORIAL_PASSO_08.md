@@ -1,4 +1,4 @@
-﻿<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+<p><a href="../README.md"><button>Voltar para o README</button></a></p>
 
 # Tutorial - Passo 8: Implementar autorizacao no backend
 
@@ -20,7 +20,7 @@ Mesmo com login funcionando, sem autorizacao correta:
 - qualquer usuario pode alterar dados de outro;
 - o frontend pode ser burlado com chamadas diretas na API.
 
-Regra de permissao precisa estar no backend.
+A regra de permissao precisa estar no backend, porque o frontend pode ser burlado com chamadas diretas na API.
 
 ## 4. Codigo necessario
 Middleware (`src/shared/middlewares/auth.middleware.ts`):
@@ -68,10 +68,10 @@ Voce construiu a camada de seguranca real do sistema, impedindo acesso indevido 
 - Esquecer de validar ownership no service.
 - Tratar `Forbidden` de forma inconsistente.
 
-## 9. Checkpoint de aprendizado
+## 9. Checkpoints de aprendizado
 - Rota protegida sem token retorna 401.
 - Usuario nao consegue editar/excluir post de outro.
-- Fluxo autorizado funciona para o dono do recurso.
+- Fluxo autorizado funciona para o dono do recurso, com resposta de sucesso e dados atualizados.
 
 ## 10. Resumo do capitulo
 Voce protegeu os recursos criticos com regras corretas de permissao.

@@ -1,4 +1,4 @@
-﻿<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+<p><a href="../README.md"><button>Voltar para o README</button></a></p>
 
 # Tutorial - Passo 2: Preparar o ambiente de desenvolvimento
 
@@ -127,7 +127,7 @@ Em resumo: agora seu computador esta pronto para transformar o roteiro em codigo
 - Misturar arquivos de backend e frontend na mesma pasta.
 - Pular validacao do Docker/Postgres.
 
-## 11. Checkpoint de aprendizado
+## 11. Checkpoints de aprendizado
 - Node e npm respondem no terminal.
 - Banco ou Docker esta pronto para uso.
 - Estrutura de pastas do projeto foi criada corretamente.

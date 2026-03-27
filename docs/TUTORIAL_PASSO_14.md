@@ -1,4 +1,4 @@
-﻿<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+<p><a href="../README.md"><button>Voltar para o README</button></a></p>
 
 # Tutorial - Passo 14: Criar camada de integracao com API
 
@@ -149,7 +149,7 @@ Voce construiu uma camada de integracao limpa e escalavel, igual ao padrao do pr
 - Esquecer baseURL por ambiente.
 - Nao enviar Bearer token nas rotas protegidas.
 
-## 9. Checkpoint de aprendizado
+## 9. Checkpoints de aprendizado
 - Cliente Axios esta centralizado.
 - Token e anexado automaticamente nas requisicoes autenticadas.
 - Services de auth, posts e profiles estao separados.

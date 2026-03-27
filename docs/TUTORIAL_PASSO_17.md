@@ -1,4 +1,4 @@
-﻿<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+<p><a href="../README.md"><button>Voltar para o README</button></a></p>
 
 # Tutorial - Passo 17: Integrar ponta a ponta
 
@@ -94,7 +94,7 @@ Voce construiu a aplicacao completa em execucao real, com todas as camadas integ
 - Esquecer migracao antes de subir backend.
 - Testar frontend sem backend disponivel.
 
-## 9. Checkpoint de aprendizado
+## 9. Checkpoints de aprendizado
 - Banco, API e frontend estao ativos ao mesmo tempo.
 - Fluxo cadastro -> login -> CRUD funciona ponta a ponta.
 - Perfil publico responde com dados corretos.
