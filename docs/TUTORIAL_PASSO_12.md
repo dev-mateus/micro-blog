@@ -102,5 +102,24 @@ export default function App() {
 ## 6. O que o aluno construiu
 Voce construiu uma base frontend robusta e sem armadilhas de configuracao para continuar o projeto.
 
+
+## 7. Dicas
+- Pense no frontend como vitrine: precisa ser organizado desde o inicio.
+- Configure Tailwind e tipagem de ambiente antes de criar telas.
+- Teste o app base no navegador logo apos setup.
+
+## 8. Erros comuns
+- Esquecer `vite-env.d.ts` e quebrar `import.meta.env`.
+- Nao ajustar `type: module` quando necessario.
+- Configurar Tailwind parcialmente.
+
+## 9. Checkpoint de aprendizado
+- Projeto React TS sobe sem erro.
+- Estilos base do Tailwind estao ativos.
+- Dependencias principais foram instaladas.
+
+## 10. Resumo do capitulo
+Voce montou a base do frontend para evoluir com seguranca nos proximos passos.
+
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
 

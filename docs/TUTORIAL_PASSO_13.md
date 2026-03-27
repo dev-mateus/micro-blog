@@ -157,5 +157,24 @@ export default function App() {
 ## 6. O que o aluno construiu
 Voce construiu a espinha dorsal de navegacao e autenticacao do frontend, igual ao fluxo do projeto final.
 
+
+## 7. Dicas
+- Context funciona como um armario central de estado.
+- Mantenha login/logout em um unico lugar para evitar duplicacao.
+- Proteja rotas sensiveis com componentes guardioes.
+
+## 8. Erros comuns
+- Espalhar estado de autenticacao por varias paginas.
+- Esquecer persistencia no localStorage.
+- Deixar rota protegida acessivel sem sessao.
+
+## 9. Checkpoint de aprendizado
+- Sessao persiste apos recarregar pagina.
+- Rotas protegidas redirecionam quando nao autenticado.
+- Rotas de visitante bloqueiam usuario ja logado.
+
+## 10. Resumo do capitulo
+Voce criou a espinha dorsal de navegacao e sessao do frontend.
+
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
 

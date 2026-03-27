@@ -111,5 +111,24 @@ Voce construiu a base tecnica do projeto:
 
 Em resumo: agora seu computador esta pronto para transformar o roteiro em codigo real.
 
+
+## 7. Dicas
+- Trate este passo como montar a bancada antes da oficina.
+- Mantenha backend e frontend separados desde o inicio.
+- Valide versoes das ferramentas antes de continuar.
+
+## 8. Erros comuns
+- Instalar ferramenta e nao testar se funciona.
+- Misturar arquivos de backend e frontend na mesma pasta.
+- Pular validacao do Docker/Postgres.
+
+## 9. Checkpoint de aprendizado
+- Node e npm respondem no terminal.
+- Banco ou Docker esta pronto para uso.
+- Estrutura de pastas do projeto foi criada corretamente.
+
+## 10. Resumo do capitulo
+Voce preparou um ambiente estavel para desenvolver sem perder tempo com problemas de setup.
+
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
 

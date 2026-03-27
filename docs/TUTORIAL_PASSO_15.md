@@ -53,5 +53,24 @@ setTotal(data.total)
 ## 6. O que o aluno construiu
 Voce construiu a experiencia principal do microblog de ponta a ponta no frontend.
 
+
+## 7. Dicas
+- Cada pagina deve tratar loading, sucesso e erro.
+- Comece com fluxo principal: login -> feed -> criar post.
+- Evite logica pesada no JSX, extraia para funcoes.
+
+## 8. Erros comuns
+- Nao tratar erro de rede.
+- Navegacao quebrada entre telas principais.
+- Misturar responsabilidade de varias paginas no mesmo arquivo.
+
+## 9. Checkpoint de aprendizado
+- Usuario consegue cadastrar, logar e navegar no app.
+- Feed e perfil carregam dados da API.
+- Criacao e edicao de post funcionam na interface.
+
+## 10. Resumo do capitulo
+Voce transformou regras tecnicas em experiencia real de uso.
+
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
 

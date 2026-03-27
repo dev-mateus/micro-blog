@@ -99,5 +99,24 @@ Resposta esperada:
 ## 6. O que o aluno construiu
 Voce construiu o "nucleo" do backend: um servidor que sobe, responde e conecta todos os modulos da API.
 
+
+## 7. Dicas
+- A rota de health e seu termometro rapido da API.
+- Carregue variaveis de ambiente antes de subir o servidor.
+- Registre modulos no server logo no inicio do projeto.
+
+## 8. Erros comuns
+- Subir sem JWT_SECRET configurado.
+- Esquecer de registrar uma rota/modulo no server.
+- Configurar CORS com origem incorreta.
+
+## 9. Checkpoint de aprendizado
+- `GET /health` responde `status: ok`.
+- Servidor sobe sem falha de ambiente.
+- Rotas principais estao registradas no arquivo central.
+
+## 10. Resumo do capitulo
+Voce colocou o backend no ar com configuracao minima, segura e pronta para evoluir por modulos.
+
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
 

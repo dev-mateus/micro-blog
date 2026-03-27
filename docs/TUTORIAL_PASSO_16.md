@@ -46,5 +46,24 @@ const isOwner = isAuthenticated && user?.profile.username === post.profile.usern
 ## 6. O que o aluno construiu
 Voce construiu uma UI mais organizada, reutilizavel e facil de manter.
 
+
+## 7. Dicas
+- Componente reutilizavel e como peca de Lego.
+- Padronize props para facilitar reuso.
+- Concentre comportamento repetido no mesmo componente.
+
+## 8. Erros comuns
+- Copiar e colar blocos iguais em varias paginas.
+- Componente com props confusas.
+- Nao usar condicoes de exibicao para acoes de dono.
+
+## 9. Checkpoint de aprendizado
+- Header e reutilizado em paginas relevantes.
+- PostCard exibe dados de forma consistente.
+- Acoes de editar/excluir aparecem so para o dono.
+
+## 10. Resumo do capitulo
+Voce melhorou manutencao e consistencia visual com componentes reutilizaveis.
+
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
 

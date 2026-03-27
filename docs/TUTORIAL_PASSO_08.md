@@ -52,5 +52,24 @@ if (post.profileId !== profileId) throw new Error('Forbidden')
 ## 6. O que o aluno construiu
 Voce construiu a camada de seguranca real do sistema, impedindo acesso indevido por usuarios nao autorizados.
 
+
+## 7. Dicas
+- Autenticacao diz quem e; autorizacao diz o que pode fazer.
+- Mantenha checagem de permissao no backend, nao so na interface.
+- Reutilize middleware para proteger rotas sensiveis.
+
+## 8. Erros comuns
+- Confiar apenas em botoes escondidos no frontend.
+- Esquecer de validar ownership no service.
+- Tratar `Forbidden` de forma inconsistente.
+
+## 9. Checkpoint de aprendizado
+- Rota protegida sem token retorna 401.
+- Usuario nao consegue editar/excluir post de outro.
+- Fluxo autorizado funciona para o dono do recurso.
+
+## 10. Resumo do capitulo
+Voce protegeu os recursos criticos com regras corretas de permissao.
+
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
 

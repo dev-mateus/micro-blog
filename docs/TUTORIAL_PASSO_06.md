@@ -60,5 +60,24 @@ export default prisma
 ## 6. O que o aluno construiu
 Voce construiu a arquitetura base do backend para escalar sem virar codigo monolitico desorganizado.
 
+
+## 7. Dicas
+- Imagine modulos como setores de uma empresa: cada um com sua funcao.
+- Deixe controller focado em HTTP e service em regra de negocio.
+- Mantenha o Prisma client em area compartilhada para evitar duplicacao.
+
+## 8. Erros comuns
+- Colocar regra de negocio em rotas.
+- Duplicar acesso ao banco em varios arquivos sem padrao.
+- Misturar responsabilidades de modulos diferentes.
+
+## 9. Checkpoint de aprendizado
+- Estrutura `routes/controller/service` existe em cada modulo.
+- Voce sabe onde adicionar nova regra de negocio.
+- Existe um ponto unico de acesso ao Prisma.
+
+## 10. Resumo do capitulo
+Voce organizou o backend para crescer com clareza e manutencao simples.
+
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
 

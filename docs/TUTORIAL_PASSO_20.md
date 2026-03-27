@@ -67,5 +67,24 @@ Voce construiu e validou um microblog full stack completo, com arquitetura modul
 
 Parabens: voce terminou o projeto com criterio de entrega profissional.
 
+
+## 7. Dicas
+- Use checklist como padrao de entrega profissional.
+- Marque itens apenas apos validar de fato.
+- Se um item falhar, volte ao passo relacionado e ajuste.
+
+## 8. Erros comuns
+- Encerrar projeto so porque a tela abriu.
+- Nao validar regras de seguranca.
+- Nao testar build final antes de concluir.
+
+## 9. Checkpoint de aprendizado
+- Todos os itens tecnicos, funcionais e de seguranca estao validados.
+- Voce consegue demonstrar o fluxo completo sem erro.
+- Projeto esta pronto para ser apresentado ou publicado.
+
+## 10. Resumo do capitulo
+Voce concluiu o microblog com criterio de entrega real: funcionando, seguro e documentado.
+
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
 

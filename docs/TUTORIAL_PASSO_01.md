@@ -96,5 +96,24 @@ Voce construiu a base conceitual do projeto:
 
 Sem este passo, o projeto nasce confuso. Com este passo, ele nasce com direcao.
 
+
+## 7. Dicas
+- Pense neste passo como a planta da casa: sem planta, a obra trava.
+- Escreva regras curtas e objetivas (quem pode fazer o que).
+- Guarde este documento para revisar sempre que tiver duvida.
+
+## 8. Erros comuns
+- Comecar a codar sem definir escopo minimo.
+- Escrever regras vagas, sem criterio de validacao.
+- Mudar regra no meio do caminho sem atualizar o documento.
+
+## 9. Checkpoint de aprendizado
+- Voce consegue explicar o projeto em 1 minuto.
+- Voce sabe o que entra e o que fica fora do escopo.
+- Voce tem regras de negocio registradas.
+
+## 10. Resumo do capitulo
+Voce definiu a base do projeto. Isso reduz retrabalho e deixa os proximos passos mais seguros.
+
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
 

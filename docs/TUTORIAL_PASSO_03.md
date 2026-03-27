@@ -185,5 +185,24 @@ Voce construiu o esqueleto funcional do backend:
 
 Em resumo: agora voce tem um backend vivo e preparado para crescer com qualidade.
 
+
+## 7. Dicas
+- Leia o package.json como painel de controle do backend.
+- Sempre rode build cedo para detectar erros rapidamente.
+- Mantenha scripts simples e com nomes claros.
+
+## 8. Erros comuns
+- Instalar dependencias no diretorio errado.
+- Esquecer dependencias de desenvolvimento do TypeScript.
+- Alterar scripts sem testar `npm run dev` e `npm run build`.
+
+## 9. Checkpoint de aprendizado
+- Backend inicia com `npm run dev`.
+- Build TypeScript executa sem erro.
+- Voce entende onde fica o arquivo de entrada do servidor.
+
+## 10. Resumo do capitulo
+Voce criou a base tecnica do backend com TypeScript, pronta para receber banco e modulos.
+
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
 

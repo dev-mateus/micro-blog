@@ -45,5 +45,24 @@ const posts = await prisma.post.findMany({
 ## 6. O que o aluno construiu
 Voce construiu a camada publica de perfis, essencial para navegacao aberta do microblog.
 
+
+## 7. Dicas
+- Username e endereco publico do perfil: mantenha unico e claro.
+- Use paginacao para evitar respostas muito grandes.
+- Exiba posts mais recentes primeiro para melhor experiencia.
+
+## 8. Erros comuns
+- Nao tratar perfil inexistente.
+- Esquecer `orderBy` e deixar feed confuso.
+- Nao limitar quantidade de itens por pagina.
+
+## 9. Checkpoint de aprendizado
+- Perfil por username responde corretamente.
+- Lista de posts do perfil funciona com pagina.
+- Requisicao para username invalido retorna erro esperado.
+
+## 10. Resumo do capitulo
+Voce implementou a parte publica do microblog, permitindo navegar por autores e seus posts.
+
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
 

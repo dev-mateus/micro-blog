@@ -220,5 +220,24 @@ export class AuthService {
 ## 6. O que o aluno construiu
 Voce construiu autenticacao completa e segura: cadastro, login e token JWT prontos para autorizar acoes privadas.
 
+
+## 7. Dicas
+- Pense no login como portaria: so entra quem prova identidade.
+- Valide entrada com zod para proteger seu backend.
+- Nunca salve senha em texto puro.
+
+## 8. Erros comuns
+- Nao hashear senha antes de salvar.
+- Retornar erros genericos sem contexto para o frontend.
+- Esquecer de tipar `request.user` para o Fastify.
+
+## 9. Checkpoint de aprendizado
+- Registro cria usuario e perfil.
+- Login retorna token JWT valido.
+- Erros de validacao respondem com status apropriado.
+
+## 10. Resumo do capitulo
+Voce implementou autenticacao segura com cadastro, login e emissao de token.
+
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
 

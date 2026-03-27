@@ -78,5 +78,24 @@ Abra no navegador:
 ## 6. O que o aluno construiu
 Voce construiu a aplicacao completa em execucao real, com todas as camadas integradas.
 
+
+## 7. Dicas
+- Use um terminal por processo: banco, backend e frontend.
+- Siga sempre a mesma ordem de subida para reduzir erro.
+- Valide cada camada separadamente antes do fluxo completo.
+
+## 8. Erros comuns
+- Rodar comando na pasta errada.
+- Esquecer migracao antes de subir backend.
+- Testar frontend sem backend disponivel.
+
+## 9. Checkpoint de aprendizado
+- Banco, API e frontend estao ativos ao mesmo tempo.
+- Fluxo cadastro -> login -> CRUD funciona ponta a ponta.
+- Perfil publico responde com dados corretos.
+
+## 10. Resumo do capitulo
+Voce integrou todas as camadas e validou o produto em execucao real.
+
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
 

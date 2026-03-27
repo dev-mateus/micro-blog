@@ -133,5 +133,24 @@ export const profilesService = {
 ## 6. O que o aluno construiu
 Voce construiu uma camada de integracao limpa e escalavel, igual ao padrao do projeto final.
 
+
+## 7. Dicas
+- Centralizar chamadas HTTP evita repeticao e erro.
+- Use services por dominio para manter codigo limpo.
+- Deixe o token automatico no interceptor.
+
+## 8. Erros comuns
+- Chamar API direto em varias paginas sem padrao.
+- Esquecer baseURL por ambiente.
+- Nao enviar Bearer token nas rotas protegidas.
+
+## 9. Checkpoint de aprendizado
+- Cliente Axios esta centralizado.
+- Token e anexado automaticamente nas requisicoes autenticadas.
+- Services de auth, posts e profiles estao separados.
+
+## 10. Resumo do capitulo
+Voce estruturou a comunicacao frontend-backend de forma clara e reutilizavel.
+
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
 

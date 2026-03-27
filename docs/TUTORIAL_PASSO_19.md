@@ -81,5 +81,24 @@ npm run build
 ## 6. O que o aluno construiu
 Voce construiu um projeto realmente pronto para subir em nuvem, com configuracao clara por servico.
 
+
+## 7. Dicas
+- Build local e ensaio geral do deploy.
+- Mantenha tabela simples com variaveis e comandos por servico.
+- Defina claramente root directory em cada plataforma.
+
+## 8. Erros comuns
+- Configurar comando certo na pasta errada.
+- Esquecer variavel obrigatoria em producao.
+- Publicar sem validar build local antes.
+
+## 9. Checkpoint de aprendizado
+- Backend builda e inicia com script de producao.
+- Frontend gera `dist` sem erro.
+- Configuracoes de Render/Vercel estao mapeadas.
+
+## 10. Resumo do capitulo
+Voce deixou o projeto pronto para publicacao com menor risco de falha em nuvem.
+
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
 

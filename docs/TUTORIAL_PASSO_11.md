@@ -51,5 +51,24 @@ Com id inexistente em update/delete (esperado 404).
 ## 6. O que o aluno construiu
 Voce construiu confianca no backend: ele nao so funciona, como protege as regras de negocio corretamente.
 
+
+## 7. Dicas
+- Teste casos felizes e casos de falha.
+- Valide primeiro pelo terminal para isolar problemas.
+- Guarde uma lista de cenarios de regressao para repetir sempre.
+
+## 8. Erros comuns
+- Testar apenas endpoints de sucesso.
+- Pular build antes da integracao com frontend.
+- Nao validar respostas de erro (401, 403, 404).
+
+## 9. Checkpoint de aprendizado
+- Build backend concluido sem erro.
+- Endpoints publicos e protegidos testados.
+- Cenarios de seguranca validados com resultado esperado.
+
+## 10. Resumo do capitulo
+Voce confirmou que o backend esta funcional e seguro antes da integracao completa.
+
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
 

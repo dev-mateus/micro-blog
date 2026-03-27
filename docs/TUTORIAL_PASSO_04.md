@@ -172,5 +172,24 @@ Voce construiu a base persistente do projeto:
 
 Em resumo: agora o projeto saiu de estrutura de codigo para estrutura real de dados.
 
+
+## 7. Dicas
+- Pense no schema como um mapa do banco de dados.
+- Nomeie migracoes com clareza para facilitar historico.
+- Sempre valide schema e cliente apos alteracoes.
+
+## 8. Erros comuns
+- Alterar modelos e esquecer de rodar migracao.
+- Relacionamentos inconsistentes entre User, Profile e Post.
+- Usar DATABASE_URL incorreta.
+
+## 9. Checkpoint de aprendizado
+- Migracao foi aplicada com sucesso.
+- Prisma Client foi gerado.
+- Tabelas e relacoes principais existem no banco.
+
+## 10. Resumo do capitulo
+Voce conectou aplicacao e banco com estrutura consistente, criando base confiavel para as regras de negocio.
+
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
 

@@ -192,5 +192,24 @@ export class PostsService {
 ## 6. O que o aluno construiu
 Voce construiu o modulo central da aplicacao, com feed publico e CRUD seguro de posts.
 
+
+## 7. Dicas
+- CRUD e como um ciclo completo de vida do post.
+- Defina status HTTP corretos para facilitar debug no frontend.
+- Ownership deve ser checado sempre no backend.
+
+## 8. Erros comuns
+- Permitir conteudo vazio.
+- Nao diferenciar 403 e 404.
+- Atualizar/excluir sem verificar dono.
+
+## 9. Checkpoint de aprendizado
+- Criar, editar e excluir post funciona para o dono.
+- Visitante consegue ler feed e post publico.
+- API retorna 403/404 nos cenarios corretos.
+
+## 10. Resumo do capitulo
+Voce concluiu o modulo central do produto com regras de negocio consistentes.
+
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
 
