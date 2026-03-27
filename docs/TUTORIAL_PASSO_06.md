@@ -10,6 +10,11 @@ Organizar o backend em modulos (`auth`, `profiles`, `posts`) e separar responsab
 - Como separar entrada HTTP, validacao e regra de negocio.
 - Como criar area compartilhada para utilitarios comuns.
 
+## 2.1 Termos deste capitulo (explicacao rapida)
+- Modulo: grupo de arquivos de uma area do sistema.
+- Service: camada com regra de negocio.
+
+
 ## 3. Por que este passo existe (antes do como)
 Quando tudo fica em um arquivo:
 - o projeto cresce e fica dificil de manter;
@@ -23,22 +28,22 @@ Criar estrutura:
 
 ```txt
 src/
-â”œâ”€â”€ modules/
-â”‚   â”œâ”€â”€ auth/
-â”‚   â”‚   â”œâ”€â”€ auth.routes.ts
-â”‚   â”‚   â”œâ”€â”€ auth.controller.ts
-â”‚   â”‚   â””â”€â”€ auth.service.ts
-â”‚   â”œâ”€â”€ profiles/
-â”‚   â”‚   â”œâ”€â”€ profiles.routes.ts
-â”‚   â”‚   â”œâ”€â”€ profiles.controller.ts
-â”‚   â”‚   â””â”€â”€ profiles.service.ts
-â”‚   â””â”€â”€ posts/
-â”‚       â”œâ”€â”€ posts.routes.ts
-â”‚       â”œâ”€â”€ posts.controller.ts
-â”‚       â””â”€â”€ posts.service.ts
-â””â”€â”€ shared/
-    â”œâ”€â”€ middlewares/
-    â””â”€â”€ prisma/
+|-- modules/
+|   |-- auth/
+|   |   |-- auth.routes.ts
+|   |   |-- auth.controller.ts
+|   |   `-- auth.service.ts
+|   |-- profiles/
+|   |   |-- profiles.routes.ts
+|   |   |-- profiles.controller.ts
+|   |   `-- profiles.service.ts
+|   `-- posts/
+|       |-- posts.routes.ts
+|       |-- posts.controller.ts
+|       `-- posts.service.ts
+`-- shared/
+    |-- middlewares/
+    `-- prisma/
 ```
 
 Arquivo compartilhado do Prisma (`src/shared/prisma/client.ts`):
@@ -80,4 +85,7 @@ Voce construiu a arquitetura base do backend para escalar sem virar codigo monol
 Voce organizou o backend para crescer com clareza e manutencao simples.
 
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
+
+
 

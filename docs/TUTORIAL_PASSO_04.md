@@ -12,6 +12,11 @@ Configurar o Prisma no backend, modelar as entidades principais do microblog e a
 - Como gerar e aplicar migracoes.
 - Como validar se o banco ficou alinhado com o codigo.
 
+## 2.1 Termos deste capitulo (explicacao rapida)
+- ORM (Prisma): ponte entre codigo e banco de dados.
+- Migracao: registro versionado de mudancas no banco.
+
+
 ## 3. Por que este passo existe (antes do como)
 Sem banco modelado corretamente:
 - voce nao consegue salvar usuarios e posts;
@@ -173,23 +178,26 @@ Voce construiu a base persistente do projeto:
 Em resumo: agora o projeto saiu de estrutura de codigo para estrutura real de dados.
 
 
-## 7. Dicas
+## 8. Dicas
 - Pense no schema como um mapa do banco de dados.
 - Nomeie migracoes com clareza para facilitar historico.
 - Sempre valide schema e cliente apos alteracoes.
 
-## 8. Erros comuns
+## 9. Erros comuns
 - Alterar modelos e esquecer de rodar migracao.
 - Relacionamentos inconsistentes entre User, Profile e Post.
 - Usar DATABASE_URL incorreta.
 
-## 9. Checkpoint de aprendizado
+## 10. Checkpoint de aprendizado
 - Migracao foi aplicada com sucesso.
 - Prisma Client foi gerado.
 - Tabelas e relacoes principais existem no banco.
 
-## 10. Resumo do capitulo
+## 11. Resumo do capitulo
 Voce conectou aplicacao e banco com estrutura consistente, criando base confiavel para as regras de negocio.
 
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
+
+
 

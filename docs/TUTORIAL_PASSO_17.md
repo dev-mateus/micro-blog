@@ -10,6 +10,11 @@ Subir banco, backend e frontend ao mesmo tempo e validar o fluxo real do microbl
 - Como evitar erro de diretorio na hora de rodar comandos.
 - Como validar jornada completa do usuario.
 
+## 2.1 Termos deste capitulo (explicacao rapida)
+- Integracao ponta a ponta: todas as partes rodando juntas (banco, API e frontend).
+- Validacao funcional: teste do fluxo real do usuario.
+
+
 ## 3. Por que este passo existe (antes do como)
 Partes isoladas podem parecer corretas, mas a aplicacao real so existe quando tudo conversa junto.
 
@@ -98,4 +103,7 @@ Voce construiu a aplicacao completa em execucao real, com todas as camadas integ
 Voce integrou todas as camadas e validou o produto em execucao real.
 
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
+
+
 

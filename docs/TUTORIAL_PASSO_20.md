@@ -10,6 +10,11 @@ Confirmar que voce chegou no mesmo resultado final esperado, incluindo funcional
 - Como checar regras de negocio com cenarios objetivos.
 - Como identificar se algo essencial ainda esta faltando.
 
+## 2.1 Termos deste capitulo (explicacao rapida)
+- Checklist: lista de verificacao de entrega.
+- Criterio de pronto: condicao minima para considerar concluido.
+
+
 ## 3. Por que este passo existe (antes do como)
 Sem checklist final, e comum entregar algo incompleto mesmo "parecendo pronto".
 
@@ -87,4 +92,7 @@ Parabens: voce terminou o projeto com criterio de entrega profissional.
 Voce concluiu o microblog com criterio de entrega real: funcionando, seguro e documentado.
 
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
+
+
 

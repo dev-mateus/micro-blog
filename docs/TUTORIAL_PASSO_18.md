@@ -11,6 +11,11 @@ Corrigir erros de tipagem e ambiente comuns para manter o projeto estavel.
 - Como eliminar warning de modulo no Vite.
 - Como lidar com lock do Prisma no Windows.
 
+## 2.1 Termos deste capitulo (explicacao rapida)
+- Tipagem: definicao clara do tipo dos dados no TypeScript.
+- Debug: processo de investigar e corrigir erros.
+
+
 ## 3. Por que este passo existe (antes do como)
 Projetos reais sempre tem ajustes apos integrar tudo. Saber corrigir isso faz parte do desenvolvimento profissional.
 
@@ -63,7 +68,7 @@ npm run dev
 - definir env na sessao: evita falha por `JWT_SECRET` ausente.
 
 ## 6. O que o aluno construiu
-Voce construiu resiliÃªncia tecnica: projeto compila limpo e roda sem erros comuns de setup.
+Voce construiu resiliencia tecnica: projeto compila limpo e roda sem erros comuns de setup.
 
 
 ## 7. Dicas
@@ -85,4 +90,7 @@ Voce construiu resiliÃªncia tecnica: projeto compila limpo e roda sem erros co
 Voce aprendeu a diagnosticar e resolver problemas reais de integracao e setup.
 
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
+
+
 

@@ -10,6 +10,11 @@ Implementar as paginas do app: Home, Login, Register, Profile, CreatePost e Edit
 - Como consumir services dentro das paginas.
 - Como tratar loading, erro e sucesso.
 
+## 2.1 Termos deste capitulo (explicacao rapida)
+- Fluxo de tela: ordem em que o usuario navega pelas paginas.
+- Estado de loading: periodo em que a tela aguarda resposta da API.
+
+
 ## 3. Por que este passo existe (antes do como)
 Sem paginas, nao existe produto para o usuario final. E nelas que regras viram experiencia real.
 
@@ -18,12 +23,12 @@ Pasta de paginas:
 
 ```txt
 src/pages/
-â”œâ”€â”€ Home.tsx
-â”œâ”€â”€ Login.tsx
-â”œâ”€â”€ Register.tsx
-â”œâ”€â”€ Profile.tsx
-â”œâ”€â”€ CreatePost.tsx
-â””â”€â”€ EditPost.tsx
+|-- Home.tsx
+|-- Login.tsx
+|-- Register.tsx
+|-- Profile.tsx
+|-- CreatePost.tsx
+`-- EditPost.tsx
 ```
 
 Exemplo de fluxo em `Login.tsx`:
@@ -45,7 +50,7 @@ setTotal(data.total)
 ## 5. Explicacao linha a linha
 - `Login`: autentica e salva sessao no contexto.
 - `Register`: cadastra usuario/perfil.
-- `Home`: mostra feed publico com paginaÃ§ao.
+- `Home`: mostra feed publico com paginacao.
 - `Profile`: mostra perfil e posts por username.
 - `CreatePost`: cria post (rota protegida).
 - `EditPost`: atualiza post existente com regra de dono.
@@ -73,4 +78,7 @@ Voce construiu a experiencia principal do microblog de ponta a ponta no frontend
 Voce transformou regras tecnicas em experiencia real de uso.
 
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
+
+
 

@@ -11,6 +11,11 @@ Subir um servidor Fastify funcional com CORS, JWT, rota de health e registro dos
 - Como registrar rotas dos modulos (`auth`, `profiles`, `posts`).
 - Como executar o backend com variaveis de ambiente corretamente.
 
+## 2.1 Termos deste capitulo (explicacao rapida)
+- CORS: regra de quem pode chamar sua API no navegador.
+- JWT: token que funciona como cracha digital do usuario.
+
+
 ## 3. Por que este passo existe (antes do como)
 Sem um `server.ts` bem definido:
 - cada modulo fica "solto";
@@ -119,4 +124,7 @@ Voce construiu o "nucleo" do backend: um servidor que sobe, responde e conecta t
 Voce colocou o backend no ar com configuracao minima, segura e pronta para evoluir por modulos.
 
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
+
+
 

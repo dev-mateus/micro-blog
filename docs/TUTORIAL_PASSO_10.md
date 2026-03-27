@@ -11,6 +11,11 @@ Implementar feed publico e CRUD de posts com seguranca, validacao e controle de 
 - Como retornar status HTTP corretos (201, 204, 403, 404).
 - Como aplicar regra de ownership no service.
 
+## 2.1 Termos deste capitulo (explicacao rapida)
+- CRUD: criar, ler, atualizar e excluir.
+- Ownership: regra de dono do recurso (quem pode alterar).
+
+
 ## 3. Por que este passo existe (antes do como)
 Posts sao o coracao do microblog. Se esse modulo estiver errado:
 - qualquer usuario altera post de outro;
@@ -212,4 +217,7 @@ Voce construiu o modulo central da aplicacao, com feed publico e CRUD seguro de 
 Voce concluiu o modulo central do produto com regras de negocio consistentes.
 
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
+
+
 

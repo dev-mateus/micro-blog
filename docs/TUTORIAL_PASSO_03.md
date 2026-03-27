@@ -12,6 +12,11 @@ Criar a base do backend com Node.js + TypeScript, incluindo dependencias princip
 - Como configurar compilacao TypeScript para ambiente Node.
 - Como validar se o backend esta pronto para os proximos passos.
 
+## 2.1 Termos deste capitulo (explicacao rapida)
+- TypeScript: JavaScript com tipagem para reduzir erros.
+- Dependencias: bibliotecas que o projeto usa para funcionar.
+
+
 ## 3. Por que este passo existe (antes do como)
 Se voce tentar implementar rotas e autenticacao sem essa base:
 - o projeto nao compila;
@@ -186,23 +191,26 @@ Voce construiu o esqueleto funcional do backend:
 Em resumo: agora voce tem um backend vivo e preparado para crescer com qualidade.
 
 
-## 7. Dicas
+## 8. Dicas
 - Leia o package.json como painel de controle do backend.
 - Sempre rode build cedo para detectar erros rapidamente.
 - Mantenha scripts simples e com nomes claros.
 
-## 8. Erros comuns
+## 9. Erros comuns
 - Instalar dependencias no diretorio errado.
 - Esquecer dependencias de desenvolvimento do TypeScript.
 - Alterar scripts sem testar `npm run dev` e `npm run build`.
 
-## 9. Checkpoint de aprendizado
+## 10. Checkpoint de aprendizado
 - Backend inicia com `npm run dev`.
 - Build TypeScript executa sem erro.
 - Voce entende onde fica o arquivo de entrada do servidor.
 
-## 10. Resumo do capitulo
+## 11. Resumo do capitulo
 Voce criou a base tecnica do backend com TypeScript, pronta para receber banco e modulos.
 
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
+
+
 

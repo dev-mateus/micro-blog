@@ -3,13 +3,18 @@
 # Tutorial - Passo 2: Preparar o ambiente de desenvolvimento
 
 ## 1. Objetivo do passo
-Preparar seu computador e a estrutura inicial de pastas para conseguir desenvolver o microblog com seguranÃ§a e sem travar por problemas de ambiente.
+Preparar seu computador e a estrutura inicial de pastas para conseguir desenvolver o microblog com seguranca e sem travar por problemas de ambiente.
 
-## 2. O que serÃ¡ aprendido
+## 2. O que sera aprendido
 - Por que configurar ambiente antes de programar.
 - Quais ferramentas sao obrigatorias para este projeto.
 - Como criar a estrutura de pastas `backend/` e `frontend/`.
 - Como validar que tudo esta pronto para os proximos passos.
+
+## 2.1 Termos deste capitulo (explicacao rapida)
+- Ambiente de desenvolvimento: conjunto de ferramentas para programar e testar.
+- Terminal: janela de comandos onde voce executa instrucoes.
+
 
 ## 3. Por que este passo existe (antes do como)
 Muitos iniciantes pulam essa etapa e vao direto para o codigo. O problema:
@@ -94,8 +99,8 @@ Estrutura esperada:
 
 ```txt
 micro-blog/
-â”œâ”€â”€ backend/
-â””â”€â”€ frontend/
+|-- backend/
+`-- frontend/
 ```
 
 ## 7. Como este passo se conecta com o proximo
@@ -112,23 +117,26 @@ Voce construiu a base tecnica do projeto:
 Em resumo: agora seu computador esta pronto para transformar o roteiro em codigo real.
 
 
-## 7. Dicas
+## 9. Dicas
 - Trate este passo como montar a bancada antes da oficina.
 - Mantenha backend e frontend separados desde o inicio.
 - Valide versoes das ferramentas antes de continuar.
 
-## 8. Erros comuns
+## 10. Erros comuns
 - Instalar ferramenta e nao testar se funciona.
 - Misturar arquivos de backend e frontend na mesma pasta.
 - Pular validacao do Docker/Postgres.
 
-## 9. Checkpoint de aprendizado
+## 11. Checkpoint de aprendizado
 - Node e npm respondem no terminal.
 - Banco ou Docker esta pronto para uso.
 - Estrutura de pastas do projeto foi criada corretamente.
 
-## 10. Resumo do capitulo
+## 12. Resumo do capitulo
 Voce preparou um ambiente estavel para desenvolver sem perder tempo com problemas de setup.
 
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
+
+
 

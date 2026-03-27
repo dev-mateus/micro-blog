@@ -11,6 +11,11 @@ Configurar o estado global de autenticacao e as rotas publicas/protegidas do fro
 - Como proteger rotas com React Router.
 - Como ligar App -> Provider -> Router corretamente.
 
+## 2.1 Termos deste capitulo (explicacao rapida)
+- Context: estado compartilhado entre varias telas.
+- Rota protegida: pagina que exige usuario logado.
+
+
 ## 3. Por que este passo existe (antes do como)
 Sem essa base:
 - o usuario perde sessao ao atualizar pagina;
@@ -177,4 +182,7 @@ Voce construiu a espinha dorsal de navegacao e autenticacao do frontend, igual a
 Voce criou a espinha dorsal de navegacao e sessao do frontend.
 
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
+
+
 

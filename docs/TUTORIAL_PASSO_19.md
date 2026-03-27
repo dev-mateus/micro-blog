@@ -10,6 +10,11 @@ Deixar backend e frontend prontos para deploy em qualquer provedor (Render para 
 - Quais variaveis cada aplicacao precisa.
 - Quais comandos cada plataforma deve executar.
 
+## 2.1 Termos deste capitulo (explicacao rapida)
+- Deploy: publicar aplicacao em ambiente online.
+- Build de producao: versao otimizada para publicar.
+
+
 ## 3. Por que este passo existe (antes do como)
 Projeto que roda localmente pode falhar em nuvem se:
 - comando de build estiver errado;
@@ -101,4 +106,7 @@ Voce construiu um projeto realmente pronto para subir em nuvem, com configuracao
 Voce deixou o projeto pronto para publicacao com menor risco de falha em nuvem.
 
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
+
+
 

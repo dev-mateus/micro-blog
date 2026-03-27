@@ -11,11 +11,16 @@ Centralizar chamadas HTTP no frontend com Axios, token JWT automatico e services
 - Como injetar JWT no header automaticamente.
 - Como organizar chamadas por `auth`, `posts` e `profiles`.
 
+## 2.1 Termos deste capitulo (explicacao rapida)
+- Axios: cliente HTTP usado para chamar a API.
+- Interceptor: regra automatica antes de enviar requisicoes.
+
+
 ## 3. Por que este passo existe (antes do como)
 Sem essa camada:
 - cada pagina conhece detalhes da API;
 - mudanca de endpoint quebra varios arquivos;
-- autenticaÃ§Ã£o vira codigo duplicado.
+- autenticacao vira codigo duplicado.
 
 ## 4. Codigo necessario
 
@@ -153,4 +158,7 @@ Voce construiu uma camada de integracao limpa e escalavel, igual ao padrao do pr
 Voce estruturou a comunicacao frontend-backend de forma clara e reutilizavel.
 
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
+
+
 

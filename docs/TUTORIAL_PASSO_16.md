@@ -10,6 +10,11 @@ Criar componentes compartilhados (`Header` e `PostCard`) para reduzir repeticao 
 - Como passar props para comportamento dinamico.
 - Como reaproveitar regra de exibicao em varias paginas.
 
+## 2.1 Termos deste capitulo (explicacao rapida)
+- Componente reutilizavel: bloco de interface usado em mais de uma tela.
+- Props: dados enviados para um componente funcionar.
+
+
 ## 3. Por que este passo existe (antes do como)
 Sem componentes reutilizaveis:
 - cada pagina repete codigo;
@@ -21,8 +26,8 @@ Estrutura:
 
 ```txt
 src/components/
-â”œâ”€â”€ Header.tsx
-â””â”€â”€ PostCard.tsx
+|-- Header.tsx
+`-- PostCard.tsx
 ```
 
 Exemplo `Header.tsx`:
@@ -66,4 +71,7 @@ Voce construiu uma UI mais organizada, reutilizavel e facil de manter.
 Voce melhorou manutencao e consistencia visual com componentes reutilizaveis.
 
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
+
+
 

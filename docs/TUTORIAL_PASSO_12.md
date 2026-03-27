@@ -11,6 +11,11 @@ Criar a base tecnica do frontend com React, Vite, TypeScript e Tailwind pronta p
 - Como evitar erro de `import.meta.env` no TypeScript.
 - Como estruturar arquivos iniciais (`main.tsx`, `App.tsx`, `index.css`).
 
+## 2.1 Termos deste capitulo (explicacao rapida)
+- Vite: ferramenta para iniciar e buildar o frontend rapidamente.
+- Tailwind: biblioteca de classes utilitarias de CSS.
+
+
 ## 3. Por que este passo existe (antes do como)
 Sem essa base:
 - cada passo futuro vira remendo;
@@ -122,4 +127,7 @@ Voce construiu uma base frontend robusta e sem armadilhas de configuracao para c
 Voce montou a base do frontend para evoluir com seguranca nos proximos passos.
 
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
+
+
 

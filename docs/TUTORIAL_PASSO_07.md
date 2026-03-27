@@ -12,6 +12,11 @@ Implementar cadastro e login com senha segura (bcrypt), validacao de entrada e e
 - Como gerar token JWT com dados do usuario.
 - Como tipar `request.user` no Fastify para TypeScript.
 
+## 2.1 Termos deste capitulo (explicacao rapida)
+- Hash de senha: forma segura de armazenar senha sem texto puro.
+- Credencial: dado usado para provar identidade (email/senha).
+
+
 ## 3. Por que este passo existe (antes do como)
 Autenticacao e o portao de acesso do sistema. Sem ela:
 - nao ha identidade de usuario;
@@ -240,4 +245,7 @@ Voce construiu autenticacao completa e segura: cadastro, login e token JWT pront
 Voce implementou autenticacao segura com cadastro, login e emissao de token.
 
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
+
+
 

@@ -10,6 +10,11 @@ Validar que o backend compila, sobe e respeita regras de acesso e permissao do p
 - Como testar endpoints publicos e protegidos.
 - Como validar respostas de erro esperadas (401, 403, 404).
 
+## 2.1 Termos deste capitulo (explicacao rapida)
+- Endpoint: rota da API acessada pelo cliente.
+- Status HTTP: codigo que indica sucesso ou tipo de erro.
+
+
 ## 3. Por que este passo existe (antes do como)
 Se voce pular esta etapa, bugs de backend aparecem depois no frontend e ficam mais caros de diagnosticar.
 
@@ -71,4 +76,7 @@ Voce construiu confianca no backend: ele nao so funciona, como protege as regras
 Voce confirmou que o backend esta funcional e seguro antes da integracao completa.
 
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
+
+
 

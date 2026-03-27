@@ -10,6 +10,11 @@ Garantir que apenas usuarios autenticados acessem rotas privadas e que somente o
 - Como usar middleware JWT no Fastify.
 - Como validar ownership no service.
 
+## 2.1 Termos deste capitulo (explicacao rapida)
+- Autenticacao: confirmar quem e o usuario.
+- Autorizacao: definir o que esse usuario pode fazer.
+
+
 ## 3. Por que este passo existe (antes do como)
 Mesmo com login funcionando, sem autorizacao correta:
 - qualquer usuario pode alterar dados de outro;
@@ -45,7 +50,7 @@ if (post.profileId !== profileId) throw new Error('Forbidden')
 ```
 
 ## 5. Explicacao linha a linha
-- `request.jwtVerify()`: valida assinatura e expiraÃ§ao do token.
+- `request.jwtVerify()`: valida assinatura e expiracao do token.
 - `preHandler: [authenticate]`: bloqueia rota sem token valido.
 - `post.profileId !== profileId`: confere se o autor do token e o dono do post.
 
@@ -72,4 +77,7 @@ Voce construiu a camada de seguranca real do sistema, impedindo acesso indevido 
 Voce protegeu os recursos criticos com regras corretas de permissao.
 
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
+
+
 

@@ -3,12 +3,17 @@
 # Tutorial - Passo 1: Entender o produto antes de codar
 
 ## 1. Objetivo do passo
-Antes de abrir o editor e escrever cÃ³digo, o objetivo aqui Ã© transformar a ideia do microblog em regras claras de negÃ³cio.
+Antes de abrir o editor e escrever codigo, o objetivo aqui e transformar a ideia do microblog em regras claras de negocio.
 
-## 2. O que serÃ¡ aprendido
+## 2. O que sera aprendido
 - Por que requisitos bem definidos economizam tempo.
-- Como separar o que o sistema faz e o que ele nÃ£o faz.
+- Como separar o que o sistema faz e o que ele nao faz.
 - Como escrever regras simples que guiem backend e frontend.
+
+## 2.1 Termos deste capitulo (explicacao rapida)
+- Escopo: limite do que sera feito agora.
+- Regra de negocio: regra que define o comportamento correto do sistema.
+
 
 ## 3. Por que este passo existe (antes do como)
 Se voce comeca a programar sem clareza, acontece isto:
@@ -97,23 +102,26 @@ Voce construiu a base conceitual do projeto:
 Sem este passo, o projeto nasce confuso. Com este passo, ele nasce com direcao.
 
 
-## 7. Dicas
+## 8. Dicas
 - Pense neste passo como a planta da casa: sem planta, a obra trava.
 - Escreva regras curtas e objetivas (quem pode fazer o que).
 - Guarde este documento para revisar sempre que tiver duvida.
 
-## 8. Erros comuns
+## 9. Erros comuns
 - Comecar a codar sem definir escopo minimo.
 - Escrever regras vagas, sem criterio de validacao.
 - Mudar regra no meio do caminho sem atualizar o documento.
 
-## 9. Checkpoint de aprendizado
+## 10. Checkpoint de aprendizado
 - Voce consegue explicar o projeto em 1 minuto.
 - Voce sabe o que entra e o que fica fora do escopo.
 - Voce tem regras de negocio registradas.
 
-## 10. Resumo do capitulo
+## 11. Resumo do capitulo
 Voce definiu a base do projeto. Isso reduz retrabalho e deixa os proximos passos mais seguros.
 
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
+
+
 

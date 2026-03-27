@@ -10,6 +10,11 @@ Permitir visualizar perfil publico por `username` e listar os posts desse perfil
 - Como buscar dados com Prisma por username.
 - Como paginar resultados basicos.
 
+## 2.1 Termos deste capitulo (explicacao rapida)
+- Username: nome unico publico do perfil.
+- Paginacao: dividir lista grande em partes menores.
+
+
 ## 3. Por que este passo existe (antes do como)
 Microblog precisa de identidade publica. Sem perfil publico:
 - nao existe pagina do autor;
@@ -65,4 +70,7 @@ Voce construiu a camada publica de perfis, essencial para navegacao aberta do mi
 Voce implementou a parte publica do microblog, permitindo navegar por autores e seus posts.
 
 <p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
+
+
 
