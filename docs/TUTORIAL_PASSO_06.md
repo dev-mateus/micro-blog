@@ -1,3 +1,5 @@
+﻿<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
 # Tutorial - Passo 6: Criar estrutura modular por dominio
 
 ## 1. Objetivo do passo
@@ -21,22 +23,22 @@ Criar estrutura:
 
 ```txt
 src/
-├── modules/
-│   ├── auth/
-│   │   ├── auth.routes.ts
-│   │   ├── auth.controller.ts
-│   │   └── auth.service.ts
-│   ├── profiles/
-│   │   ├── profiles.routes.ts
-│   │   ├── profiles.controller.ts
-│   │   └── profiles.service.ts
-│   └── posts/
-│       ├── posts.routes.ts
-│       ├── posts.controller.ts
-│       └── posts.service.ts
-└── shared/
-    ├── middlewares/
-    └── prisma/
+â”œâ”€â”€ modules/
+â”‚   â”œâ”€â”€ auth/
+â”‚   â”‚   â”œâ”€â”€ auth.routes.ts
+â”‚   â”‚   â”œâ”€â”€ auth.controller.ts
+â”‚   â”‚   â””â”€â”€ auth.service.ts
+â”‚   â”œâ”€â”€ profiles/
+â”‚   â”‚   â”œâ”€â”€ profiles.routes.ts
+â”‚   â”‚   â”œâ”€â”€ profiles.controller.ts
+â”‚   â”‚   â””â”€â”€ profiles.service.ts
+â”‚   â””â”€â”€ posts/
+â”‚       â”œâ”€â”€ posts.routes.ts
+â”‚       â”œâ”€â”€ posts.controller.ts
+â”‚       â””â”€â”€ posts.service.ts
+â””â”€â”€ shared/
+    â”œâ”€â”€ middlewares/
+    â””â”€â”€ prisma/
 ```
 
 Arquivo compartilhado do Prisma (`src/shared/prisma/client.ts`):
@@ -57,3 +59,6 @@ export default prisma
 
 ## 6. O que o aluno construiu
 Voce construiu a arquitetura base do backend para escalar sem virar codigo monolitico desorganizado.
+
+<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+

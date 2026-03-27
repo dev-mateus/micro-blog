@@ -1,3 +1,5 @@
+﻿<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
 # Tutorial - Passo 9: Implementar modulo de perfis publicos
 
 ## 1. Objetivo do passo
@@ -42,3 +44,6 @@ const posts = await prisma.post.findMany({
 
 ## 6. O que o aluno construiu
 Voce construiu a camada publica de perfis, essencial para navegacao aberta do microblog.
+
+<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+

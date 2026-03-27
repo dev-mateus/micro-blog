@@ -1,3 +1,5 @@
+﻿<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
 # Tutorial - Passo 14: Criar camada de integracao com API
 
 ## 1. Objetivo do passo
@@ -13,7 +15,7 @@ Centralizar chamadas HTTP no frontend com Axios, token JWT automatico e services
 Sem essa camada:
 - cada pagina conhece detalhes da API;
 - mudanca de endpoint quebra varios arquivos;
-- autenticação vira codigo duplicado.
+- autenticaÃ§Ã£o vira codigo duplicado.
 
 ## 4. Codigo necessario
 
@@ -130,3 +132,6 @@ export const profilesService = {
 
 ## 6. O que o aluno construiu
 Voce construiu uma camada de integracao limpa e escalavel, igual ao padrao do projeto final.
+
+<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+

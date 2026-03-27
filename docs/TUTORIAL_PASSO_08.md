@@ -1,3 +1,5 @@
+﻿<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
 # Tutorial - Passo 8: Implementar autorizacao no backend
 
 ## 1. Objetivo do passo
@@ -43,9 +45,12 @@ if (post.profileId !== profileId) throw new Error('Forbidden')
 ```
 
 ## 5. Explicacao linha a linha
-- `request.jwtVerify()`: valida assinatura e expiraçao do token.
+- `request.jwtVerify()`: valida assinatura e expiraÃ§ao do token.
 - `preHandler: [authenticate]`: bloqueia rota sem token valido.
 - `post.profileId !== profileId`: confere se o autor do token e o dono do post.
 
 ## 6. O que o aluno construiu
 Voce construiu a camada de seguranca real do sistema, impedindo acesso indevido por usuarios nao autorizados.
+
+<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+

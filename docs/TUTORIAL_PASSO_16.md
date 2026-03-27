@@ -1,3 +1,5 @@
+﻿<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
 # Tutorial - Passo 16: Criar componentes reutilizaveis
 
 ## 1. Objetivo do passo
@@ -19,8 +21,8 @@ Estrutura:
 
 ```txt
 src/components/
-├── Header.tsx
-└── PostCard.tsx
+â”œâ”€â”€ Header.tsx
+â””â”€â”€ PostCard.tsx
 ```
 
 Exemplo `Header.tsx`:
@@ -43,3 +45,6 @@ const isOwner = isAuthenticated && user?.profile.username === post.profile.usern
 
 ## 6. O que o aluno construiu
 Voce construiu uma UI mais organizada, reutilizavel e facil de manter.
+
+<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+

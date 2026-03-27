@@ -1,3 +1,5 @@
+﻿<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
 # Tutorial - Passo 7: Implementar autenticacao
 
 ## 1. Objetivo do passo
@@ -217,3 +219,6 @@ export class AuthService {
 
 ## 6. O que o aluno construiu
 Voce construiu autenticacao completa e segura: cadastro, login e token JWT prontos para autorizar acoes privadas.
+
+<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+

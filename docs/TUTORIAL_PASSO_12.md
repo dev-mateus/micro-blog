@@ -1,3 +1,5 @@
+﻿<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
 # Tutorial - Passo 12: Inicializar frontend com Vite + React + TS
 
 ## 1. Objetivo do passo
@@ -99,3 +101,6 @@ export default function App() {
 
 ## 6. O que o aluno construiu
 Voce construiu uma base frontend robusta e sem armadilhas de configuracao para continuar o projeto.
+
+<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+

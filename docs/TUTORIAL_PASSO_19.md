@@ -1,3 +1,5 @@
+﻿<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
 # Tutorial - Passo 19: Preparar para deploy (sem publicar)
 
 ## 1. Objetivo do passo
@@ -78,3 +80,6 @@ npm run build
 
 ## 6. O que o aluno construiu
 Voce construiu um projeto realmente pronto para subir em nuvem, com configuracao clara por servico.
+
+<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+

@@ -1,3 +1,5 @@
+﻿<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
 # Tutorial - Passo 18: Resolver erros comuns de projeto real
 
 ## 1. Objetivo do passo
@@ -61,4 +63,7 @@ npm run dev
 - definir env na sessao: evita falha por `JWT_SECRET` ausente.
 
 ## 6. O que o aluno construiu
-Voce construiu resiliência tecnica: projeto compila limpo e roda sem erros comuns de setup.
+Voce construiu resiliÃªncia tecnica: projeto compila limpo e roda sem erros comuns de setup.
+
+<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+

@@ -1,9 +1,11 @@
+﻿<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
 # Tutorial - Passo 2: Preparar o ambiente de desenvolvimento
 
 ## 1. Objetivo do passo
-Preparar seu computador e a estrutura inicial de pastas para conseguir desenvolver o microblog com segurança e sem travar por problemas de ambiente.
+Preparar seu computador e a estrutura inicial de pastas para conseguir desenvolver o microblog com seguranÃ§a e sem travar por problemas de ambiente.
 
-## 2. O que será aprendido
+## 2. O que serÃ¡ aprendido
 - Por que configurar ambiente antes de programar.
 - Quais ferramentas sao obrigatorias para este projeto.
 - Como criar a estrutura de pastas `backend/` e `frontend/`.
@@ -92,8 +94,8 @@ Estrutura esperada:
 
 ```txt
 micro-blog/
-├── backend/
-└── frontend/
+â”œâ”€â”€ backend/
+â””â”€â”€ frontend/
 ```
 
 ## 7. Como este passo se conecta com o proximo
@@ -108,3 +110,6 @@ Voce construiu a base tecnica do projeto:
 - validacao minima para seguir sem bloqueios.
 
 Em resumo: agora seu computador esta pronto para transformar o roteiro em codigo real.
+
+<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+

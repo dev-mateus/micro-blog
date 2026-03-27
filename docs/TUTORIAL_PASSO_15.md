@@ -1,3 +1,5 @@
+﻿<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
 # Tutorial - Passo 15: Construir paginas principais
 
 ## 1. Objetivo do passo
@@ -16,12 +18,12 @@ Pasta de paginas:
 
 ```txt
 src/pages/
-├── Home.tsx
-├── Login.tsx
-├── Register.tsx
-├── Profile.tsx
-├── CreatePost.tsx
-└── EditPost.tsx
+â”œâ”€â”€ Home.tsx
+â”œâ”€â”€ Login.tsx
+â”œâ”€â”€ Register.tsx
+â”œâ”€â”€ Profile.tsx
+â”œâ”€â”€ CreatePost.tsx
+â””â”€â”€ EditPost.tsx
 ```
 
 Exemplo de fluxo em `Login.tsx`:
@@ -43,10 +45,13 @@ setTotal(data.total)
 ## 5. Explicacao linha a linha
 - `Login`: autentica e salva sessao no contexto.
 - `Register`: cadastra usuario/perfil.
-- `Home`: mostra feed publico com paginaçao.
+- `Home`: mostra feed publico com paginaÃ§ao.
 - `Profile`: mostra perfil e posts por username.
 - `CreatePost`: cria post (rota protegida).
 - `EditPost`: atualiza post existente com regra de dono.
 
 ## 6. O que o aluno construiu
 Voce construiu a experiencia principal do microblog de ponta a ponta no frontend.
+
+<p><a href="../README.md"><button>Voltar para o README</button></a></p>
+
