@@ -7,6 +7,9 @@ Construir um microblog completo com:
 3. Fluxo completo de cadastro, login, perfil público e CRUD de posts
 4. Organização modular e pronta para evolução/deploy
 
+## Preview da tela inicial
+![Tela inicial do Microblog](docs/Captura%20de%20tela%202026-04-17%20162509.png)
+
 ## Etapa 1: Entender o produto antes de codar
 Tutorial detalhado: [TUTORIAL_PASSO_01.md](docs/TUTORIAL_PASSO_01.md)
 1. Defina o que o sistema faz e o que não faz.
